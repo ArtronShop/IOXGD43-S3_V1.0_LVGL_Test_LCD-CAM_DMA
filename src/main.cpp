@@ -70,10 +70,10 @@ void setup() {
 */
   Serial.println("Setup done");
 
-  lv_demo_widgets();
+  lv_demo_music();
 }
 
 void loop() {
   lv_timer_handler(); /* let the GUI do its work */
-  delay(100);
+  delay(10);
 }

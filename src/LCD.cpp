@@ -20,7 +20,7 @@
 #define LCD_WIDTH 800
 #define LCD_HEIGHT 480
 // #define LCD_PIXEL_CLOCK_HZ (400 * 1000)
-#define LCD_PIXEL_CLOCK_HZ (5 * 1000 * 1000)
+#define LCD_PIXEL_CLOCK_HZ (20 * 1000 * 1000)
 #define LCD_CLOCK_SRC LCD_CLK_SRC_PLL160M
     // .clk_src = LCD_CLK_SRC_XTAL,
     // .clk_src = LCD_CLK_SRC_PLL160M,
